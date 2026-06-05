@@ -66,3 +66,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+.stars-fallback {
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+    radial-gradient(1px 1px at 80px 120px, #fff, transparent),
+    radial-gradient(1px 1px at 150px 60px, #fff, transparent),
+    radial-gradient(1px 1px at 220px 180px, #fff, transparent),
+    radial-gradient(1px 1px at 300px 40px, #fff, transparent),
+    radial-gradient(1px 1px at 360px 140px, #fff, transparent);
+  background-size: 400px 200px;
+}

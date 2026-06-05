@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+import { VideoBackground } from "@/components/sub/video-background";
 import { slideInFromTop } from "@/lib/motion";
 
 export const Encryption = () => {
@@ -11,7 +12,7 @@ export const Encryption = () => {
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-2xl sm:text-3xl lg:text-[40px] font-medium text-center text-gray-200 px-4"
         >
           Performance{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -51,16 +52,10 @@ export const Encryption = () => {
       </div>
 
       <div className="w-full flex items-start justify-center absolute">
-        <video
-          loop
-          muted
-          autoPlay
-          playsInline
-          preload="false"
+        <VideoBackground
+          src="/videos/encryption-bg.webm"
           className="w-full h-auto"
-        >
-          <source src="/videos/encryption-bg.webm" type="video/webm" />
-        </video>
+        />
       </div>
     </div>
   );

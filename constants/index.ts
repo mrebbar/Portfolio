@@ -71,7 +71,7 @@ export const SOCIALS = [
   {
     name: "Telegram",
     icon: FaTelegram,
-    link: "https://t.me/mrebbar",
+    link: "https://t.me/fn0er",
   },
 ] as const;
 
@@ -220,7 +220,7 @@ export const FOOTER_DATA = [
       {
         name: "Telegram",
         icon: FaTelegram,
-        link: "https://t.me/mrebbar",
+        link: "https://t.me/fn0er",
       },
     ],
   },
